@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/css?family=Kalam);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.body{
+    background: white;
+}
+.float img{
+    z-index: 10;
+	position:fixed;
+    bottom: 0;
+    right:4.30555556vw;
+}
+
+.tooltip {
+    z-index: 10;
+	position: fixed;
+    bottom: 160px;
+    right:3.47222222vw;
+	background: #ffffff;
+	border: 2px solid #000000;
+    padding: 8px 23px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+
+.float:hover .waitHover {
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.nav-link{
+    color: #3A3A3A;
+    font: normal normal normal 16px/22px Noto Sans;
+}
+.nav-link:hover{
+    color: #F9C745;
+}
+.box-item:hover{
+    color: #F9C745 !important;
+}
+.lead{
+    letter-spacing: 1.28px;
+}
+.btn-contact, .btn-contact:focus {
+	border: 1px solid #3A3A3A;
+}
+.btn-contact:hover {
+    color: #3A3A3A;
+	background: #F9C745;
+	border-color: #F9C745;
+}
+.btn-shadow:hover{
+    box-shadow: 0px 3px 0px #3A3A3A;
+    border-radius: 23px;
+}
+.more:hover{
+    color: #F9C745 !important;
+}
+
+.responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ban {
+    width: 100vw;
+    height:20vw;
+    background: url('img/banner.png');
+    background-repeat:no-repeat;
+    background-size: 100vw 20vw;
+}
+.step {
+    font-size: 16px; 
+    line-height: 22px;
+    text-align: center;
+    margin: 80px 62.805px 0;
+}
+
+.step .subtitle {
+    color: #F9C745;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.step .title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 2px;
+    margin-bottom: 17px;
+}
